@@ -1,12 +1,12 @@
-defmodule Membrane.Template.Mixfile do
+defmodule Membrane.Stream.Format.Mixfile do
   use Mix.Project
 
   @version "0.1.0"
-  @github_url "https://github.com/membraneframework/membrane_template_plugin"
+  @github_url "https://github.com/membraneframework/membrane_stream_format"
 
   def project do
     [
-      app: :membrane_template_plugin,
+      app: :membrane_stream_format,
       version: @version,
       elixir: "~> 1.10",
       elixirc_paths: elixirc_paths(Mix.env()),
@@ -36,7 +36,6 @@ defmodule Membrane.Template.Mixfile do
 
   defp deps do
     [
-      {:membrane_core, "~> 0.6.0"},
       {:ex_doc, "~> 0.22", only: :dev, runtime: false},
       {:dialyxir, "~> 1.0.0", only: :dev, runtime: false},
       {:credo, "~> 1.4", only: :dev, runtime: false}
