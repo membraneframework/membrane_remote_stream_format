@@ -1,12 +1,12 @@
-defmodule Membrane.Stream.Format.Mixfile do
+defmodule Membrane.RemoteStream.Format.Mixfile do
   use Mix.Project
 
   @version "0.1.0"
-  @github_url "https://github.com/membraneframework/membrane_stream_format"
+  @github_url "https://github.com/membraneframework/membrane_remote_stream_format"
 
   def project do
     [
-      app: :membrane_stream_format,
+      app: :membrane_remote_stream_format,
       version: @version,
       elixir: "~> 1.10",
       elixirc_paths: elixirc_paths(Mix.env()),
@@ -14,11 +14,11 @@ defmodule Membrane.Stream.Format.Mixfile do
       deps: deps(),
 
       # hex
-      description: "Template Plugin for Membrane Multimedia Framework",
+      description: "Membrane format describing an unparsed data stream",
       package: package(),
 
       # docs
-      name: "Membrane Plugin: Template",
+      name: "Membrane remote stream format",
       source_url: @github_url,
       homepage_url: "https://membraneframework.org",
       docs: docs()
@@ -57,8 +57,7 @@ defmodule Membrane.Stream.Format.Mixfile do
     [
       main: "readme",
       extras: ["README.md", "LICENSE"],
-      source_ref: "v#{@version}",
-      nest_modules_by_prefix: [Membrane.Template]
+      source_ref: "v#{@version}"
     ]
   end
 end
