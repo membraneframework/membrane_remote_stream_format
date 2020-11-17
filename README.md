@@ -1,6 +1,7 @@
 # Membrane Remote Stream format
 
 [![Hex.pm](https://img.shields.io/hexpm/v/membrane_remote_stream_format.svg)](https://hex.pm/packages/membrane_remote_stream_format)
+[![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://hexdocs.pm/membrane_remote_stream_format/)
 [![CircleCI](https://circleci.com/gh/membraneframework/membrane_remote_stream_format.svg?style=svg)](https://circleci.com/gh/membraneframework/membrane_remote_stream_format)
 
 Membrane format describing an unparsed data stream. It should be used whenever outputting or accepting an unknown stream (not to be confused with _any_ stream, which can have well-specified format either), or a stream whose format can't/shouldn't be created at that stage.
