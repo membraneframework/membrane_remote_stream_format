@@ -4,6 +4,8 @@
 [![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://hexdocs.pm/membrane_remote_stream_format/)
 [![CircleCI](https://circleci.com/gh/membraneframework/membrane_remote_stream_format.svg?style=svg)](https://circleci.com/gh/membraneframework/membrane_remote_stream_format)
 
+## Content of this package has been moved to membrane_core (v0.7.0). 
+
 Membrane format describing an unparsed data stream. It should be used whenever outputting or accepting an unknown stream (not to be confused with _any_ stream, which can have well-specified format either), or a stream whose format can't/shouldn't be created at that stage.
 
 It is part of [Membrane Multimedia Framework](https://membraneframework.org).

@@ -1,7 +1,7 @@
 defmodule Membrane.RemoteStream.Format.Mixfile do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
   @github_url "https://github.com/membraneframework/membrane_remote_stream_format"
 
   def project do
@@ -36,7 +36,7 @@ defmodule Membrane.RemoteStream.Format.Mixfile do
 
   defp deps do
     [
-      {:ex_doc, "~> 0.22", only: :dev, runtime: false},
+      {:ex_doc, "~> 0.24", only: :dev, runtime: false},
       {:dialyxir, "~> 1.0.0", only: :dev, runtime: false},
       {:credo, "~> 1.4", only: :dev, runtime: false}
     ]
